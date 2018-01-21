@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wiirk</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="top">
+				<div class="container">
+					<div class="top__logo">
+						<h1>Wiirk<span>Freelance Marketplace</span></h1>
+					</div>
+					<div class="top__search-block">
+						<div class="top__search">
+							<form action="get" class="form top__form">
+								<div class="top__input">
+									<input class="input input--search" type="text">
+									<button type="submit" id="btn-top" class="btn btn--search">
+										<i class="icon icon-search-header"></i>
+									</button>
+								</div>
+							</form>
+						</div>
+						<button class="btn resp-search">
+							<i class="icon icon-search-header"></i>
+						</button>
+						<div class="top__project">
+							<button class="btn btn--blue">
+								<i class="icon icon-plus"></i>Project
+							</button>
+						</div>
+					</div>
+					<div class="top__extra">
+						<a class="top__language">English</a>
+						<a class="top__money">Eur<i class="icon icon-euro"></i></a>
+					</div>
+					<div class="resp-button">
+						<span class="button-strip"></span>
+						<span class="button-strip"></span>
+						<span class="button-strip"></span>
+					</div>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="container">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link menu__link--active" href="#">Paper Writing</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Technology</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Drafting  &amp; Calculations</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Writing  &amp; Translation</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Graphics  &amp; Design</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Programming &amp; Web</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Video  &amp; Audio</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Tutoring</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="content">
+			<div class="container">
+				<div class="aside">
+					<div class="person block">
+						<div class="person__photo">
+							<img src="img/girl.jpg" alt="person">
+							<div class="person__status">Pro</div>
+						</div>
+						<div class="person__name">
+							Alisa_Writer125
+						</div>
+						<div class="person__stars">
+							<i class="icon icon-star"></i>
+							<i class="icon icon-star"></i>
+							<i class="icon icon-star"></i>
+							<i class="icon icon-star"></i>
+							<i class="icon icon-star"></i>
+						</div>
+						<button class="btn btn--gray">
+							Never give up!
+						</button>
+					</div>
+					<div class="s-nav block">
+						<ul class="s-nav__list">
+							<li class="s-nav__item">
+								<i class="icon icon-resume"></i>
+								<a href="#" class="s-nav__link s-nav__link--resume">Start selling</a>
+							</li>
+							<li class="s-nav__item">
+								<i class="icon icon-form"></i>
+								<a href="#" class="s-nav__link">Post a request</a>
+							</li>
+							<li class="s-nav__item">
+								<i class="icon icon-house"></i>
+								<a href="#" class="s-nav__link">Home</a>
+							</li>
+							<li class="s-nav__item">
+								<i class="icon icon-mail"></i>
+								<a href="#" class="s-nav__link ">Messages</a>
+							</li>
+						</ul>
+					</div>
+					<div class="share block">
+						<span class="share__header">Invite friends and get paid</span>
+						<p>Tell your friends about Wiirk.com and earn 10% from their order. Get paid with our affiliate program wiirk.com/affiliate !</p>
+						<div class="share__icons">
+							<a href="#" class="share__link"><i class="icon icon-vk"></i></a>
+							<a href="#" class="share__link"><i class="icon icon-facebook"></i></a>
+							<a href="#" class="share__link"><i class="icon icon-ok"></i></a>
+							<a href="#" class="share__link"><i class="icon icon-my-world"></i></a>
+							<a href="#" class="share__link"><i class="icon icon-google"></i></a>
+							<a href="#" class="share__link"><i class="icon icon-twitter"></i></a>
+						</div>
+						<div class="share__url">
+							<input type="text" placeholder="http://www.redpony.company/..." class="input input--share">
+						</div>
+					</div>
+				</div>
+				<div class="central">
+					<section class="search block">
+						<h2>List of jobs</h2>
+						<form action="get" class="search__form">
+							<div class="search__input">
+								<input type="text" class="input input--search">
+								<button type="submit" class="btn btn--search">
+									<i class="icon icon-search"></i>
+								</button>
+							</div>
+							<div class="search__selects">
+								<div class="search__select search__select--category">
+									<label for="category">Category</label>
+									<select class="select select--search" name="cat" id="category">
+										<option value="cat1">Graphics &amp; Design</option>
+										<option value="cat2">Graphics &amp; Design</option>
+										<option value="cat3">Graphics &amp; Design</option>
+									</select>
+								</div>
+								<div class="search__select search__select--order">
+									<label for="order">Order</label>
+									<select class="select select--search" name="order" id="order">
+										<option value="order1">The most urgent</option>
+										<option value="order2">The most urgent</option>
+										<option value="order3">The most urgent</option>
+									</select>
+								</div>
+								<div class="search__button">
+									<button class="btn btn--blue">
+										<i class="icon icon-plus"></i>Project
+									</button>
+								</div>
+							</div>
+						</form>
+					</section>
+					<section class="card block">
+						<div class="card__top">
+							<span class="card__cat">Graphics &amp; Design</span>
+							<span class="card__date">08.06.2017 22:34</span>
+						</div>
+						<div class="card__body">
+							<h3>Professional power point presentation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+						</div>
+						<div class="card__bottom">
+							<div class="card__author">
+								<img src="img/author.jpg" alt="author">
+								<a class="card__name" href="#">dianadiana123</a>
+							</div>
+							<div class="card__look">
+								<i class="icon icon-eye"></i> 459
+							</div>
+							<button class="btn btn--green">
+								Add an offer (2)
+							</button>
+						</div>
+					</section>
+					<section class="card block">
+						<div class="card__top">
+							<span class="card__cat">Graphics &amp; Design</span>
+							<span class="card__date">08.06.2017 22:34</span>
+						</div>
+						<div class="card__body">
+							<h3>Professional power point presentation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+						</div>
+						<div class="card__bottom">
+							<div class="card__author">
+								<img src="img/author.jpg" alt="author">
+								<a class="card__name" href="#">dianadiana123</a>
+							</div>
+							<div class="card__look">
+								<i class="icon icon-eye"></i> 459
+							</div>
+							<button class="btn btn--green">
+								Add an offer (2)
+							</button>
+						</div>
+					</section>
+					<section class="card block">
+						<div class="card__top">
+							<span class="card__cat">Graphics &amp; Design</span>
+							<span class="card__date">08.06.2017 22:34</span>
+						</div>
+						<div class="card__body">
+							<h3>Professional power point presentation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+						</div>
+						<div class="card__bottom">
+							<div class="card__author">
+								<img src="img/author.jpg" alt="author">
+								<a class="card__name" href="#">dianadiana123</a>
+							</div>
+							<div class="card__look">
+								<i class="icon icon-eye"></i> 459
+							</div>
+							<button class="btn btn--green">
+								Add an offer (2)
+							</button>
+						</div>
+					</section>
+					<section class="card block">
+						<div class="card__top">
+							<span class="card__cat">Graphics &amp; Design</span>
+							<span class="card__date">08.06.2017 22:34</span>
+						</div>
+						<div class="card__body">
+							<h3>Professional power point presentation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+						</div>
+						<div class="card__bottom">
+							<div class="card__author">
+								<img src="img/author.jpg" alt="author">
+								<a class="card__name" href="#">dianadiana123</a>
+							</div>
+							<div class="card__look">
+								<i class="icon icon-eye"></i> 459
+							</div>
+							<button class="btn btn--green">
+								Add an offer (2)
+							</button>
+						</div>
+					</section>
+					<section class="card block">
+						<div class="card__top">
+							<span class="card__cat">Graphics &amp; Design</span>
+							<span class="card__date">08.06.2017 22:34</span>
+						</div>
+						<div class="card__body">
+							<h3>Professional power point presentation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+						</div>
+						<div class="card__bottom">
+							<div class="card__author">
+								<img src="img/author.jpg" alt="author">
+								<a class="card__name" href="#">dianadiana123</a>
+							</div>
+							<div class="card__look">
+								<i class="icon icon-eye"></i> 459
+							</div>
+							<button class="btn btn--green">
+								Add an offer (2)
+							</button>
+						</div>
+					</section>
+					<div class="pagination">
+						<ul class="pagination__list">
+							<li class="pagination__item"><a class="pagination__link pagination__link--active" href="#">1</a></li>
+							<li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+							<li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+							<li class="pagination__item"><a class="pagination__link" href="#">4</a></li>
+							<li class="pagination__item"><a class="pagination__link" href="#">5</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__copy">
+					&copy; 2016 LLC "Work24"
+					<br> London 81
+					<br> Guild Street SE17 2TX
+					<br> Tel. +447441913617
+				</div>
+				<div class="footer__nav">
+					<ul class="f-nav__list">
+						<li class="f-nav__item"><a href="#" class="f-nav__link"><i class="icon icon-house-footer"></i></a></li>
+						<li class="f-nav__item"><a href="#" class="f-nav__link">Why us</a></li>
+						<li class="f-nav__item"><a href="#" class="f-nav__link">Pricing</a></li>
+						<li class="f-nav__item"><a href="#" class="f-nav__link">Deals</a></li>
+						<li class="f-nav__item"><a href="#" class="f-nav__link">News</a></li>
+						<li class="f-nav__item"><a href="#" class="f-nav__link">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="footer__pay">
+					<a href=""><i class="icon icon-paypal"></i></a>
+					<a href=""><i class="icon icon-amex"></i></a>
+					<a href=""><i class="icon icon-discover"></i></a>
+					<a href=""><i class="icon icon-visa"></i></a>
+					<a href=""><i class="icon icon-master"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
